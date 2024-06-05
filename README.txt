@@ -18,9 +18,11 @@ For the reproducibility, I trained the model using the file Master2.py which has
 The epoch_loss.png contains the validation training loss during the training. 
 To make a test result video, the Demo_test.ipynb can be used, I changed the sum_factor in the test section because the generated data already has sum_factor of 10 applied.
 
-So far I did not reproduce the model weights in the original DBLink repository, since it seems the original model weights was trained on 128x128 imgs, contradicting the msg I got from the authors.
-The trained model also did not perform well on testing (visually from the test video and test mse wise) for the generated 32x32 imgs.
+So far I did not reproduce the model weights in the original DBLink repository, since it seems the original model weights was trained on 128x128 imgs (as seen on expected output vids), contradicting the msg I got from the authors.
+The trained model also did not perform well on testing (visually from the test video and test mse wise) for the generated 32x32 imgs (process the video result using trained model).
 
+Update V1.1: 
+Updated Master2.ipynb so that it can be used to both train and test DBLink for reproducibility testing and training (Only 1 cell needs to be skipped for testing DBLINK)
 
-
+Added BaseX_test and Basey_test for testing the DBLink model I trained using 32x32 img size as mentioned above.
 
