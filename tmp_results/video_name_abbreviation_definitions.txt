@@ -1,0 +1,10 @@
+orig: Originally trained model weights from DBlink Github
+trained: Trained model weights using 32x32 img
+
+sum1: sumfactor = 1, since generated data is already summed 10
+sum10: sumfactor = 10, for testing , generated data is already summed 10
+
+size32: referring to the img_size variable in the original DBlink/demo.py  filament simulation 
+scale4: referring to the scale_factor variable in the original DBlink/demo.py filament simulation
+
+standalone number _#_ = sample # 
