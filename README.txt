@@ -5,7 +5,7 @@ Main used python files description:
 
 - Trainers_ULM.py: Master2 trainers 
 
-- Demo_test.ipynb: DBlink original code, was only used for generating training data for reproducibility
+- Demo_test.ipynb: DBlink original code with some minor modifications to make it work, can do generating, training, testing
 
 
 
@@ -26,3 +26,5 @@ Updated Master2.ipynb so that it can be used to both train and test DBLink for r
 
 Added BaseX_test and Basey_test for testing the DBLink model I trained using 32x32 img size as mentioned above.
 
+Updata V1.2:
+added Demo_test.ipynb
